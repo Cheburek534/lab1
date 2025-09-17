@@ -1,7 +1,7 @@
 
 const array = [true, 'Hello World', 8, 152, -20, false, false, 'TikTok', 36.7, 'Dota', 0, 'Python'];
 console.log('Array:', array);
-let types = {number: 0, string: 0, boolean: 0, object: 0, undefined: 0, symbol: 0, bigint: 0};
+let types = {number: 0, string: 0, boolean: 0, object: 0, symbol: 0};
 
 console.log('Initial element:', types);
 for (const item of array) {
