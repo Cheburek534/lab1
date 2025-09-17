@@ -1,7 +1,9 @@
 'use strict';
 
 const inc = (obj) => {
-  console.log(obj);
+  obj.n -=5 
+    obj.n++;
 };
-
-module.exports = { inc };
+const obj1 = {n: 9};
+inc(obj1);
+console.log(obj1);
